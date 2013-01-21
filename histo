@@ -1,0 +1,279 @@
+    1  ls
+    2  yum install sudo
+    3  exit
+    4  yum search mod-wsgi
+    5  locate mod-wsgi
+    6  find . -name  mod-wsgi
+    7  find / -name  mod-wsgi*
+    8  sudo find / -name  mod-wsgi*
+    9  sudo su
+   10  pwd
+   11  ll
+   12  rm -rf ninaval/
+   13  git clone git@bitbucket.org:savon_noir/ninaval.git
+   14  git clone https://mboutillier@bitbucket.org/savon_noir/ninaval.git
+   15  ll
+   16  mysql
+   17  sudo su
+   18  cd ninaval/src/NiNaval/
+   19  python manage.py syncdb
+   20  ll
+   21  pwd
+   22  cd ..
+   23  ll
+   24  ls -al
+   25  git fetch
+   26  git merge
+   27  git merge remote
+   28  git merge origin
+   29  ll
+   30  cd -
+   31  cd NiNaval/
+   32  ll
+   33  vim settings.py 
+   34  vi settings.py 
+   35  python manage.py syncdb
+   36  export LC_ALL=en_US.UTF-8
+   37  python manage.py syncdb
+   38  python manage.py syncdb --help
+   39  python manage.py runserver
+   40  ll
+   41  vim settings.py
+   42  vi settings.py
+   43  python manage.py runserver
+   44  history
+   45  sudo su
+   46  local
+   47  locale
+   48  cd /tmp/vagrant-puppet/modules-0/epel/
+   49  ll
+   50  cd ..
+   51  cat /etc/environment 
+   52  man /etc/environment 
+   53  locale-gen
+   54  cd
+   55  ll
+   56  cd mysite/
+   57  l
+   58  ll
+   59  python manage.py runserver
+   60  ll
+   61  ci mysite/settings.py
+   62  vi mysite/settings.py
+   63  python manage.py syncdb
+   64  python manage.py startapp polls
+   65  ll
+   66  fil db.sqlite 
+   67  file db.sqlite 
+   68  head db.sqlite 
+   69  less  db.sqlite 
+   70  vi polls/models.py 
+   71  l polls/
+   72  ll polls/
+   73  vi mysite/settings.py
+   74  python manage.py sql polls
+   75  python manage.py validate
+   76  python manage.py sqlcustom polls
+   77  python manage.py sql polls
+   78  python manage.py sqlclear polls
+   79  python manage.py sqlindexes polls 
+   80  python manage.py sqlall polls 
+   81  python manage.py syncdb
+   82  python manage.py shell
+   83  ll
+   84  vi polls/models.py
+   85  python manage.py shell
+   86  vi polls/models.py
+   87  python manage.py shell
+   88  ll
+   89  vi mysite/urls.py
+   90  python manage.py runserver
+   91  vi mysite/urls.py
+   92  python manage.py syncdb
+   93  python manage.py runserver
+   94  vi mysite/settings.py
+   95  python manage.py runserver
+   96  manage.py createsuperuser --username=mike
+   97  python manage.py createsuperuser --username=mike
+   98  python manage.py runserver
+   99  ll
+  100  cd polls/
+  101  ll
+  102  vi admin.py
+  103  cd ..
+  104  python manage.py runserver
+  105  vi polls/admin.py
+  106  python manage.py runserver
+  107  vi polls/admin.py
+  108  python manage.py runserver
+  109  vi polls/admin.py
+  110  python manage.py runserver
+  111  vi polls/admin.py
+  112  python manage.py runserver
+  113  vi polls/models.py
+  114  python manage.py runserver
+  115  vi polls/admin.py
+  116  python manage.py runserver
+  117  ll
+  118  ll mysite/
+  119  vi mysite/settings.py
+  120  ll
+  121  mkdir templates
+  122  ll
+  123  cd templates/
+  124  pwd
+  125  cd ..
+  126  vi mysite/settings.py
+  127  locate django/contrib/admin/templates/admin/base_site.html
+  128  find / -name django/contrib/admin/templates/admin/base_site.html
+  129  find / -name *django/contrib/admin/templates/admin/base_site.html
+  130  sudo find / -name *django/contrib/admin/templates/admin/base_site.html
+  131  which django-admin.py 
+  132  pip
+  133  pip help
+  134  pip search . | egrep -B1 'INSTALLED|LATEST'
+  135  sudo find / -name site-packages
+  136  cp /usr/lib/python2.6/site-packages/django/contrib/admin/templates/admin/base_site.html ./templates/
+  137  ll
+  138  ll templates/
+  139  mkdir templates/admin
+  140  mv templates/base_site.html templates/admin/
+  141  vi templates/admin/base_site.html 
+  142  python manage.py runserver
+  143  ll
+  144  vi templates/admin/base_site.html 
+  145  python manage.py runserver
+  146  cp /usr/lib/python2.6/site-packages/django/contrib/admin/templates/admin/index.html templates/admin/index.html
+  147  vi templates/admin/index.html 
+  148  python manage.py runserver
+  149  ll
+  150  ll mysite/urls.py
+  151  vi mysite/urls.py
+  152  python manage.py runserver
+  153  vi polls/views.py
+  154  python manage.py runserver
+  155  vi polls/views.py
+  156  vi mysite/urls.py
+  157  python manage.py runserver
+  158  vi polls/views.py
+  159  python manage.py runserver
+  160  vi polls/views.py
+  161  python manage.py runserver
+  162  vi polls/views.py
+  163  ll
+  164  cd templates/
+  165  ll
+  166  mkdir poll
+  167  mv poll/ polls
+  168  vi polls/index.html
+  169  cd ..
+  170  python manage.py runserver
+  171  vi polls/views.py
+  172  python manage.py runserver
+  173  ll
+  174  ll polls/
+  175  vi polls/views.py
+  176  vi templates/polls/detail.html
+  177  python manage.py runserver
+  178  vi polls/views.py
+  179  python manage.py runserver
+  180  vi polls/views.py
+  181  python manage.py runserver
+  182  vi templates/polls/detail.html
+  183  python manage.py runserver
+  184  ll
+  185  vi mysite/urls.py
+  186  python manage.py runserver
+  187  cp mysite/urls.py polls/
+  188  vi mysite/urls.py
+  189  cat polls/urls.py 
+  190  vim  polls/urls.py 
+  191  vi  polls/urls.py 
+  192  python manage.py runserver
+  193  vi templates/polls/detail.html
+  194  python manage.py runserver
+  195  vi polls/views.py
+  196  python manage.py runserver
+  197  vi polls/views.py
+  198  python manage.py runserver
+  199  vi polls/views.py
+  200  vi templates/polls/results.html
+  201  python manage.py runserver
+  202  pwd
+  203  ll
+  204  cd ..
+  205  ll
+  206  cd mysite/
+  207  git init
+  208  git status
+  209  git add -A
+  210  git status
+  211  git commit -m "first commit in the middle of the part 4 of the django tutorial"
+  212  git remote add origin git@github.com:bmx0r/django-tuto.git
+  213  git push -u origin master
+  214  vi /home/vagrant/.ssh/id_rsa
+  215  ssh-add 
+  216  ssh-add /home/vagrant/.ssh/id_rsa 
+  217  chmod 700 /home/vagrant/.ssh/id_rsa
+  218  ssh-agent 
+  219  SSH_AUTH_SOCK=/tmp/ssh-iAtfP22391/agent.22391; export SSH_AUTH_SOCK;
+  220  SSH_AGENT_PID=22392; export SSH_AGENT_PID;
+  221  echo Agent pid 22392;
+  222  ssh-add /home/vagrant/.ssh/id_rsa 
+  223  git push -u origin master
+  224  git status
+  225  git log
+  226  git reset 94030b64242a577ffaf9438d2d896dea55742b9a
+  227  git status
+  228  git commit -m "erroooor"
+  229  ll
+  230  ls -al
+  231  git branch -D master
+  232  ll
+  233  rm -rf .git/
+  234  ll
+  235  git init
+  236  vi .gitignore
+  237  git status
+  238  vi .gitignore
+  239  git status
+  240  git commit -m "in the middle of part 4 of django's tuto"
+  241  git add -A
+  242  git commit -m "in the middle of part 4 of django's tuto"
+  243  git push -u origin master
+  244  git remote add origin git@github.com:bmx0r/django-tuto.git
+  245  git push -u origin master
+  246  git remote add origin git@github.com:bmx0r/django2-tuto.git
+  247  git remote remove
+  248  git remote remove origin
+  249  git remote set origin git@github.com:bmx0r/django2-tuto.git
+  250  git remote set-utl origin git@github.com:bmx0r/django2-tuto.git
+  251  vi .git/config 
+  252  git push -u origin master
+  253  vi .git/config 
+  254  git remote add origin git@github.com:bmx0r/django-tuto2.git
+  255  vi .git/config 
+  256  git remote add origin git@github.com:bmx0r/django-tuto2.git
+  257  git stauts
+  258  git status
+  259  git push -u origin master
+  260  git brach
+  261  git branch
+  262  git branch -b tuto4
+  263  git branch  tuto4
+  264  git branch
+  265  git checkout tuto4
+  266  ll
+  267  python manage.py runserver
+  268  vi polls/urls.py
+  269  python manage.py runserver
+  270  vi polls/views.py
+  271  python manage.py runserver
+  272  vi polls/views.py
+  273  python manage.py runserver
+  274  git status
+  275  git commit -a -m "end of tuto"
+  276  git commit  -m "end of tuto"
+  277  git push -u origin master
+  278  history |less
+  279  history > histo
